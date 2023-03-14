@@ -1,0 +1,152 @@
+
+
+.cajaPrincipal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 15% 0;
+    background-color: #f0f2f5;
+}
+
+/* gap=separacion entre cajas sirve para grid o flexbox */
+
+.logoFacebook {
+    height: 106px;
+    margin: -28px
+}
+
+@font-face {
+    font-family: "Helvetica";
+    src: url(../fonts/Helvetica.ttf);
+}
+
+*{
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.FbDes {
+    font-size: 16px;
+    line-height: 28px;
+    width: 380px;
+    
+}
+
+.FbDes h2 {
+    font-weight: 100;
+}
+
+.Formularios {
+    border: 1px solid #c5c5c5;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+}
+
+.Inputss {
+    width: 300px;
+    font-size: 14px;
+    margin: 5px;
+    border-radius: 8px;
+    border-color: #c5c5c5;
+    border: 1px solid   #c5c5c5;
+    padding: 15px  15px;
+    
+}
+
+.botonLogin{
+    border: 0;
+    width: 100%;
+    background-color: #166fe5;
+    border-radius: 8px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px   0;
+}
+
+.olvPass{
+    text-align: center;
+    align-items: center;
+    padding: 10px   0;
+    font-size: 14px;
+}
+
+.olvPass a{
+    text-decoration: none;
+    color: #166fe5;
+}
+
+/* #42b72a */
+
+.botonNewAcc{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin-left: 24%;
+}
+
+.botonNewAcc{
+    border: 0;
+    /* width: 100%; */
+    background-color: #42b72a;
+    border-radius: 8px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 17px;
+    padding: 10px;
+}
+
+.separador {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.linea1 {
+    background: #c5c5c5;
+    width: 100%;
+    height: 1px;
+    margin: 20px    0;
+}
+
+.CajaCreaPg {
+    font-size: 14px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.CajaCreaPg a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+.idioM {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-left: 3%;
+    color: #8a8d91;
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+.idioM a {
+    text-decoration: none;
+    color: #8a8d91;
+}
+
+.Idiom1 {
+    margin-left: 10px;
+}
+
+.botonM a {
+    border: 1px solid #ccd0d5;
+    border-radius: 5%;
+    padding: 2px 8px;
+    background-color: #f5f6f7;
+    color: #636b7a;
+}
