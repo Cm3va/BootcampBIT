@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+:root{
+    --color-1: #1877F2;
+}
+/**
+* Universal
+. Clases
+# Id
+nombre_etiqueta
+*/
+
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+.fondoTelefono {
+    background-image: url(../img/telefonos.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 380px;
+    height: 580px;
+}
+
+.imgSlider {
+    width: 204px;
+    transform: translate(130px, 21px);
+}
+
+#logoInstagram {
+    width: 180px;
+}
+
+.flexbox1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 4%;
+}
+
+.imgTiendas {
+    height: 40px;
+}
+
+.cajaUsuario {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja1U {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    padding: 12px 0 9px 8px;
+    width: 260px;
+    background-color: #FAFAFA;
+    font-size: 12px;
+    border-radius: 3px;
+    border: 1px solid var(--color-1)
+}
+
+.contenedorInputs {
+    margin: 10px 0;
+}
+
+#btnLogin {
+    width: 100%;
+    padding: 8px 0;
+    background-color: var(--color-1);
+    border-radius: 8px;
+    color: #fff;
+    font-weight: bold;
+    border: 0;
+}
+
+#btnLogin:hover{
+    background-color: red;
+}
+
+.separadorContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.linea {
+    background: #c5c5c5;
+    width: 100%;
+    height: 1px;
+    margin: 20px 0;
+}
+
+.linea1 {
+    margin-right: 20px;
+}
+
+.linea2 {
+    margin-left: 20px;
+}
+
+.linkUsuario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.linkUsuario a {
+    margin:  10px 0;
+    text-decoration: none;
+}
+
+.borde {
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 3px;
+}
+
+.cajaFormulario{
+    padding: 25px 25px  18px;
+}
+
+#enlace1 {
+    text-decoration: none;
+    font-size: .8rem;
+    color: #385185;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+#enlace1 span{
+    font-size: 1.1rem;
+}
+
+#enlace2 {
+    text-decoration: none;
+    font-size: .7rem;
+    color: #000;
+}
+
+.textCenter {
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+.textCenter a {
+    text-decoration: none;
+    color: rgb(0, 149, 246);
+    font-weight: bold;
+}
+
+.caja2 {
+    width: 100%;
+    padding: 25px 10px 18px;
+    margin-top: 15px;
+}
+
+.tiendas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tiendas p {
+    margin: 25px 0;
+}
+
+.enlacesFooter {
+    display: flex;
+    flex-wrap: wrap;
+    width: 950px;
+    justify-content: center;
+    align-items: center;
+}
+
+.enlacesFooter div {
+    font-size: 11px;
+    padding: 10px 8px 0;
+    color: rgb(142, 142, 142);
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 70px;
+}
+
+.idiomas {
+    margin-top: 20px;
+    display: flex;
+    font-size: 11px;
+    color: rgb(142, 142, 142);
+}
+
+.idiomas select {
+    font-size: 11px;
+    border: 0;
+    width: 70px;
+    margin-right: 15px;
+    color: rgb(142, 142, 142);
+}
+
+footer{
+    margin-bottom: 500px;
+}
+
+.img2 {
+    display: none;
+}
+
+.img1 {
+    display: block;
+}
+
+@media (max-width:875px){
+    .img2{
+        display: block;
+    }
+    .img1{
+        display: none;
+    }
+}
+
+input:focus-visible{
+    border: 2px solid #eb2828;
+    background-color: #385185;
+}
+
+/* .enlacesFooter :nth-child(5) {
+    background-color: aqua;
+}
+
+select :nth-child(2n+1) {
+    color: #eb2828;
+} */
+
+
+/* @media
+    max-width
+    min-widthç
+    !important
+    */
+
+    /* @media (max-width: 875px) {
+    /* .fondoTelefono {
+        display: none;
+    } */
+
+/*     
+
+input:focus-visible {
+    border: 2px solid #eb2828;
+    background-color: #385185;
+}
+
+.enlacesFooter :nth-child(5) {
+    background-color: aqua;
+}
+
+select :nth-child(2n+1) {
+    color: #eb2828;
+} */ */
