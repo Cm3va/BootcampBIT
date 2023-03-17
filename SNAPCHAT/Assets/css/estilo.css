@@ -1,0 +1,27 @@
+/* #fffc00 */
+
+@font-face {
+    font-family: "Graphik";
+    src: url(../fonts/Graphik-Font-Family/GraphikRegular.otf);
+}
+
+*{
+    font-family: "Graphik", Helvetica, sans-serif;
+}
+
+:root{
+    --color-1: #fffc00;
+}
+
+.CajaPrincipal {
+    background-color:var(--color-1) ;
+}
+
+.Bodys {
+    background-color: var(--color-1);
+    margin: 10px 20px;
+}
+
+.Footers {
+    background-color: white;
+}
