@@ -6,22 +6,151 @@
 }
 
 *{
+    margin: 0;
+}
+.tipografia{
     font-family: "Graphik", Helvetica, sans-serif;
 }
 
 :root{
     --color-1: #fffc00;
+    --color-2: #000;
+    --color-3: #fff;
 }
 
 .CajaPrincipal {
     background-color:var(--color-1) ;
-}
 
-.Bodys {
-    background-color: var(--color-1);
-    margin: 10px 20px;
+    padding: 10px 20px;
 }
 
 .Footers {
-    background-color: white;
+    background-color: var(--color-3);
+    /* width: 1070px; */
+    height: 278px;
+}
+
+.img1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btt1 {
+    width: 72px;
+    height: 64px;
+}
+
+.storiesnav{
+    width: 24px;
+    height: 28px;
+}
+.storiesnav span {
+    font-size: 12px;
+}
+
+.spotlightnav {
+    width: 21px;
+    height: 27px;
+}
+.spotlightnav span {
+    font-size: 12px;
+}
+
+.chatnav {
+    width: 22px;
+    height: 28px;
+}
+.chatnav span {
+    font-size: 12px;
+}
+
+.lensesnav {
+    width: 25px;
+    height: 28px;
+}
+.lensesnav span {
+    font-size: 12px;
+}
+
+.mapnav {
+    width: 21px;
+    height: 28px;
+}
+.mapnav span {
+    font-size: 12px;
+}
+
+
+.buttadd1 {
+    padding: 8px 16px;
+    border-radius: 100px;
+    margin-left: 10px;
+}
+
+
+.cajaPresets {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.LeyendaSnapchat {
+    font-size: 64px;
+    width:  435px;
+    line-height: 86px;
+}
+
+.LeyendaNormal {
+    font-size: 24px;
+    width: 427px;
+    line-height: 30px;
+}
+
+.buttonlogin {
+    color: var(--color-3);
+    background-color: var(--color-2);
+    margin: 30px 0px 0px;
+    padding: 10px 20px 10px 20px;
+    font-size: 20px;
+    border: 0;
+    border-radius: 500px;
+    white-space: nowrap;
+    font-weight: bold;
+}
+
+.ImagenPortatil {
+    width: 50vw;
+}
+
+.botonpepe{
+    width: 50px;
+    height: 50px;
+}
+
+.txt1 {
+    font-size: 14px;
+    color: var(--color-2);
+
+}
+
+.txt2{
+    line-height: 17px;
+    margin-top: 6px;
+}
+
+.texinf{
+    color: var(--color-1);
+}
+
+.Iconochat2{
+width: 16px;
+height: 18px;
+}
+
+@media (max-width: 992px) {
+    .LeyendaSnapchat{
+        
+    }
 }
