@@ -296,5 +296,18 @@ footer p {
     margin: 5px;
 }
 .sliderimagenes{
-    margin-top: 100px;
+    margin-top: 200px;
+}
+
+.imgslider{
+    width: 400px;
+    height: 400px;
+}
+
+.quienessomos{
+    margin-top: 200px;
+}
+
+.modalproductos{
+    font-size: 14px;
 }
