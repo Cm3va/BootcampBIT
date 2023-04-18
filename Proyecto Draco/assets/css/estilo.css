@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    font-family: 'montserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+/* MENU */
+#menu li>a {
+    font-size: 18px;
+    font-weight: bold;
+    color: #3f3f3f;
+}
+
+#menu form>button {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* MENU */
+
+/* SLIDER DE IMAGENES */
+.carousel-inner {
+    max-height: 39rem;
+}
+
+/* SLIDER DE IMAGENES */
+
+/* MAPA */
+/* .mapa{
+
+} */
+#local {
+    background-color: #f3f3f3;
+    padding-bottom: 300px;
+}
+
+.wrapper {
+    margin-left: 100px;
+    padding-top: 150px;
+}
+
+/* MAPA */
+
+/* MEDIA QUERIES PANTALLA ANCHA */
+@media(max-width: 1200px) {
+    #local {
+        flex-wrap: wrap;
+        padding-top: 3px;
+    }
+
+    .wrapper {
+        width: 90%;
+        margin: auto;
+        padding-top: 50px;
+    }
+}
+
+/* MEDIA QUERIES PANTALLA ANCHA */
+
+/* MEDIA QUERIES PANTALLA SM */
+@media (max-width:768px) {
+    #intro #equipo {
+        width: 90% !important;
+    }
+
+    #equipo p {
+        display: none;
+    }
+
+    .servicio-fila {
+        width: 100% !important;
+        text-align: center;
+    }
+    #bg-contacto {
+        top: -110px;
+    }
+}
+
+#contenedor-formulario{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, 400%);
+    background: #fbfafa;
+    border-radius: 5px;
+    max-width: 500px;
+}
+
+/* MEDIA QUERIES PANTALLA SM */
+
+/* MEDIA QUERIES PANTALLA XS */
+@media(max-width: 576px) {
+    .icono-wrap {
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+}
+
+/* MEDIA QUERIES PANTALLA XS */
+
+/* SELECCION EQUIPO */
+#numero-local div {
+    padding: 0 20px 0 0;
+    height: 48px;
+}
+
+#numero-local div:not(:last-child) {
+    border-right: 2px solid #3f3f3f;
+}
+
+#numero-local div:not(:first-child) {
+    padding-left: 20px;
+}
+
+#numero-local p {
+    margin: 0;
+}
+
+/* SELECCION EQUIPO */
+
+.pro1 {
+    background-image: url(../img/Attack-on-Titan.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 180px;
+    height: 160px;
+}
+
+.pro2 {
+    background-image: url(../img/BUSITONARUTO.png);
+    background-position: center;
+    background-size: cover;
+    width: 180px;
+    height: 160px;
+}
+
+.pro3 {
+    background-image: url(../img/GORRA\ NARUTO.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 180px;
+    height: 160px;
+}
+
+.pro4 {
+    background-image: url(../img/pokemon.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 180px;
+    height: 160px;
+}
+
+#bg-contacto {
+    position: relative;
+    top: -130px;
+}
+
+#seccion-contacto{
+    background-color: #1b2a4e;
+    min-height: 500px;
+    position: relative;
+}
+
+#contenedor-formulario{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, 360%);
+    background: #fbfafa;
+    border-radius: 5px;
+    max-width: 500px;
+}
+
+#titulo-formulario{
+    color: #3f3f3f;
+}
+
+footer{
+    background: #1b2a4e;
+    min-height: 100px;
+}
+
+footer p {
+    color: #f3f3f3;
+    text-align: center;
+}
+
+#Iconos {
+    font-size: 26px;
+    padding: 0 8px;
+    color: #f3f3f3;
+}
+
+
+.pepe{
+    min-height: 120px;
+}
+
+.botonlogin{
+    font-size: 20px;
+}
+
+.Formularios {
+    border: 1px solid #c5c5c5;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 15px;
+    padding-bottom: 500px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+}
+
+.Inputss {
+    width: 300px;
+    font-size: 14px;
+    margin: 5px;
+    border-radius: 8px;
+    border-color: #c5c5c5;
+    border: 1px solid   #c5c5c5;
+    padding: 15px  15px;
+    
+}
+
+.botonLogin{
+    border: 0;
+    width: 100%;
+    background-color: #166fe5;
+    border-radius: 8px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px   0;
+}
+
+.olvPass{
+    text-align: center;
+    align-items: center;
+    padding: 10px   0;
+    font-size: 14px;
+}
+
+.olvPass a{
+    text-decoration: none;
+    color: #166fe5;
+}
+
+/* #42b72a */
+
+.botonNewAcc{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin-left: 22%;
+}
+
+.botonNewAcc{
+    border: 0;
+    /* width: 100%; */
+    background-color: #166fe5;
+    border-radius: 8px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 17px;
+    padding: 10px;
+}
+
+.Iniciarsesion{
+    margin-bottom: 10px;
+}
+
+.contenedorGeneralReg{
+    width: 432px;
+    height: 470px;
+}
+
+.Formularios1 {
+    border: 1px solid #c5c5c5;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+}
+
+.bodyss{
+    height: 100vh;
+}
+
+/* footer{
+    width: 70%;
+    padding: 0 93px 73px;
+} */
+
+.condiciones {
+    font-size: 12px;
+    text-align: justify;
+    margin: 5px;
+}
+.sliderimagenes{
+    margin-top: 100px;
+}

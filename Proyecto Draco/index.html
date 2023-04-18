@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="es">
+<!-- 
+
+  https://www.grimbergdentales.com/ 
+  Base para empezar la pagina
+  Tema: E-COMMERCE
+    Se evalúa en el proyecto final:
+    Inicio.html listo
+    Contacto listo
+    Registro listo
+    Login listo
+    (todos) productos
+    (single) producto
+    carrito
+
+  Empresa Comercializadora de Materiales para Odontología
+  NavBar
+    Login
+    Carrito
+    buscar
+    Logo
+  NavBar
+    Bio-seguridad
+      Guantes
+      Algodones
+      Baberos
+      Bolsas para Básico
+    Operatoria
+      Resina
+      Desmineralizante
+      Adhesivo
+      MicroBrush
+
+  Footer
+  Logo WhatsApp Hipervinculo
+
+  
+-->
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>DENTAL ROOT "Perfila tu sonrisa, eres tu mejor diseñador"</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="assets/css/estilo.css" />
+</head>
+
+<body>
+  <!-- ENCABEZADO -->
+  <header class="container-fluid bg-primary d-flex justify-content-center fixed-bottom">
+    <p class="tex-light mb-0 p-2 fs-6 ">Contáctenos: +57 313 2009348</p>
+  </header>
+  <!-- ENCABEZADO -->
+
+  <div>
+    <!-- cuerpo después del encabezado -->
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary p-3 fixed-top" id="menu">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <span class="text-primary fs-5 fw-bold">DENTAL ROOT</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#">¿Quienes somos?</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Insumos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Comunidad</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contenedor-formulario">Contacto</a>
+            </li>
+            <li class="nav-item">
+              <div class="">
+                <!-- Button trigger modal -->
+                <button type="button" class="btn botonlogin" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  <i class="fa-solid fa-user-tag"></i> Iniciar Sesión
+                </button>
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                  aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content bg-lolo">
+                      <div class="modal-body">
+                        <div class="d-flex justify-content-end">
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div>
+                          <div class="Iniciarsesion d-flex justify-content-center align-items-center">
+                            <form class="Formularios pb-4">
+                              <div class="Inputs">
+                                <input type="text" placeholder="Correo electrónico o número de teléfono"
+                                  class="Inputss">
+                              </div>
+                              <div class="Inputs">
+                                <input type="password" placeholder="Contraseña" class="Inputss">
+                              </div>
+                              <div>
+                                <button class="botonLogin"> Iniciar sesión</button>
+                              </div>
+                              <div class="olvPass">
+                                <a href="#">¿Has olvidado la contraseña?</a>
+                              </div>
+                              <div class="separador">
+                                <div class="linea1">
+                                </div>
+                              </div>
+                              <a href="registro.html" target="_blank">
+                                <div class="botonNewAc">
+                                  <button type="button" class="botonNewAcc">Crear cuenta nueva</button>
+
+                                </div>
+                              </a>
+                            </form>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="email" placeholder="Correo electrónico" aria-label="email" />
+            <button class="btn btn-primary btn-primary-outline-success" type="button">
+              Suscribete
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- NAVBAR -->
+
+    <!-- SLIDER DE IMÁGENES-->
+    <div class="sliderimagenes">
+      <div class="d-flex justify-content-center">
+        <div id="carouselExample" class="carousel slide">
+          <div class="carousel-inner d-flex">
+            <div class="carousel-item active" data-bs-interval="3000">
+              <img src="assets/img/Basico-odontologia.webp" class="d-block w-auto img-fluid carruselimg" alt="Camiseta" />
+            </div>
+  
+            <div class="carousel-item" data-bs-interval="3000">
+              <img src="assets/img/BUSITONARUTO.png" class="d-block w-auto img-fluid carruselimg" alt="Buso" />
+            </div>
+  
+            <div class="carousel-item" data-bs-interval="3000">
+              <img src="assets/img/GORRA NARUTO.jpg" class="d-block w-auto img-fluid carruselimg" alt="Gorra" />
+            </div>
+  
+            <div class="carousel-item" data-bs-interval="3000">
+              <img src="assets/img/estampado.jpeg" class="d-block w-auto img-fluid carruselimg" alt="Estampado" />
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- SLIDER DE IMAGENES-->
+
+    <!-- INTRO-->
+    <section class="w-50 mx-auto text-center pt-5" id="intro">
+      <h1 class="p-3 fs-2 border-top border-3">
+        Una agencia única para todas tus necesidades de<span class="text-primary">
+          Marketing Digital</span>
+      </h1>
+      <p class="p-3 fs-4">
+        <span class="text-primary">T-SHIRT.ART </span>es la agencia donde te
+        ayudamos a establecer tu presencia online. SEO, Paginas WEB, Tiendas
+        virtuales, Redes sociales
+      </p>
+    </section>
+    <!-- INTRO-->
+
+    <!-- SERVICIOS-->
+    <section class="container-fluid">
+      <div class="row w-75 mx-auto servicio-fila">
+        <div class="col-lg-6 col-md-6 col-sm-12 d-flex my-3 icono-wrap">
+          <div class="pro1">
+
+          </div>
+          <div>
+            <h3 class="fs-5 mt-4 px-4 pb-1">Busos</h3>
+            <p class="px-4">Todo tipo de Busos</p>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 d-flex my-3 icono-wrap">
+          <div class="pro2">
+
+          </div>
+          <div>
+            <h3 class="fs-5 mt-4 px-4 pb-1">Busos</h3>
+            <p class="px-4">Todo tipo de Busos</p>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 d-flex my-3 icono-wrap">
+          <div class="pro3">
+
+          </div>
+          <div>
+            <h3 class="fs-5 mt-4 px-4 pb-1">Busos</h3>
+            <p class="px-4">Todo tipo de Busos</p>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 d-flex my-3 icono-wrap">
+          <div class="pro4">
+
+          </div>
+          <div>
+            <h3 class="fs-5 mt-4 px-4 pb-1">Busos</h3>
+            <p class="px-4">Todo tipo de Busos</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- SERVICIOS-->
+
+    <!-- NOSOTROS-->
+    <section class="">
+      <div class="text-center" id="equipo">
+        <h1 class="mb-5 fs-2">
+          Equipo pequeño con
+          <span class="text-primary"> Resultados Grandes</span>
+        </h1>
+        <p class="fs-4">
+          Trabajamos para poderte ofrecer el mejor servicio, te esperamos para
+          que te unas a nuestro equipo
+        </p>
+      </div>
+      <div class="mt-5 text-center">
+        <img class="img-fluid" src="assets/img/equipo.jpg" alt="Equipo" />
+      </div>
+
+
+    </section>
+    <!-- NOSOTROS -->
+
+    <!-- FOOTER -->
+    <footer id="local">
+      <div class="border-top border-2 d-flex justify-content-center align-items-center flex-wrap">
+        <div class="mapa map-responsive">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.4691781011743!2d-74.0996932244094!3d4.688230041764295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9b3e36e09c41%3A0x998bfbcfa6e6eabc!2sIglesia%20Pentecostal%20Unida%20de%20Colombia%20-%20Boyac%C3%A1%20Real!5e0!3m2!1ses-419!2sco!4v1681330762843!5m2!1ses-419!2sco"
+            width="600" height="450" style="border: 0" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="w-25 wrapper">
+          <h2>Ubicado en Bogota, Colombia.</h2>
+          <div class="pepe">
+            <h2 class="text-primary mb-4" id="efectoEscritura"></h2>
+          </div>
+          <p class="fs-5 text-body">
+            Elegimos Bogota para nuestra oficina principal teniendo como
+            objetivo estar cerca de nuestros clientes. Estamos ubicados por la
+            cll 72 zona central y principal del comercio de Bogota. Visítenos
+            y no se arrepentirán
+          </p>
+          <section class="d-flex" id="numero-local">
+            <div>
+              <p class="text-primary fs-5">2582</p>
+              <p>Metros sobre el nivel del mar</p>
+            </div>
+            <div>
+              <p class="text-primary fs-5">100%</p>
+              <p>Aprobado</p>
+            </div>
+            <div>
+              <p class="text-primary fs-5">18ºC</p>
+              <p>Temperatura</p>
+            </div>
+          </section>
+        </div>
+      </div>
+    </footer>
+    <!-- FOOTER -->
+
+    <!-- FORMULARIO - BG -->
+    <section id="seccion-contacto" class="border-bottom border-secondary border-2">
+      <div id="bg-contacto"></div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#0099ff" fill-opacity="1"
+          d="M0,224L16,218.7C32,213,64,203,96,170.7C128,139,160,85,192,58.7C224,32,256,32,288,80C320,128,352,224,384,250.7C416,277,448,235,480,197.3C512,160,544,128,576,133.3C608,139,640,181,672,202.7C704,224,736,224,768,202.7C800,181,832,139,864,144C896,149,928,203,960,234.7C992,267,1024,277,1056,250.7C1088,224,1120,160,1152,128C1184,96,1216,96,1248,85.3C1280,75,1312,53,1344,80C1376,107,1408,181,1424,218.7L1440,256L1440,320L1424,320C1408,320,1376,320,1344,320C1312,320,1280,320,1248,320C1216,320,1184,320,1152,320C1120,320,1088,320,1056,320C1024,320,992,320,960,320C928,320,896,320,864,320C832,320,800,320,768,320C736,320,704,320,672,320C640,320,608,320,576,320C544,320,512,320,480,320C448,320,416,320,384,320C352,320,320,320,288,320C256,320,224,320,192,320C160,320,128,320,96,320C64,320,32,320,16,320L0,320Z">
+        </path>
+      </svg>
+    </section>
+    <!-- FORMULARIO - BG -->
+  </div>
+
+  <!-- FORMULARIO -->
+  <DIV class="container" id="contenedor-formulario">
+    <div id="titulo-formulario" class="text-center mb-4">
+      <div> <img src="assets/img/callcenter.webp" alt="Contacto" class="img-fluid">
+        <h2>Contacto</h2>
+        <p class="fs-5">Estamos aqui para hacer realidad tus sueños</p>
+      </div>
+      <form action="">
+        <div class="mb-3">
+          <input type="email" class="form-control" id="correo1" placeholder="nombre@ejemplo.com" required>
+        </div>
+        <div class="mb-3">
+          <input type="text" class="form-control" id="nombres" placeholder="Ej: Carlos Hoyos" required>
+        </div>
+        <div class="mb-3">
+          <input type="tel" class="form-control" id="telefono" placeholder="000-000-00-00" required>
+        </div>
+        <div class="mb-3">
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+            placeholder="Escribe tu mensaje"></textarea>
+        </div>
+        <div class="mb-3">
+          <button type="button" class="btn btn-primary w-100 fs-5">Enviar mensaje</button>
+        </div>
+      </form>
+    </div>
+  </DIV>
+
+  <!-- FORMULARIO -->
+
+  <!-- PIE DE PAGINA -->
+  <footer class="w-100 d-flex align-items justify-content-center flex-wrap">
+    <p class="fs-5 px-3 pt-3">DENTAL ROOT. &copy; Todos Los Derechos Reservados 2023</p>
+    <div id="Iconos">
+      <a href="#"><i class="fa-brands fa-facebook"></i></a>
+      <a href="#"><i class="fa-brands fa-twitter"></i></a>
+      <a href="#"><i class="fa-brands fa-instagram"></i></a>
+    </div>
+  </footer>
+  <!-- PIE DE PAGINA -->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+  <script src="assets/main.js"></script>
+</body>
+
+</html>
