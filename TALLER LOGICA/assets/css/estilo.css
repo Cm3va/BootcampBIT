@@ -1,0 +1,8 @@
+@font-face {
+    font-family: fuenteBacana;
+    src: url(../fonts/cCagens.ttf);
+}
+
+.fuenteNice{
+    font-family: "fuenteBacana";
+}
